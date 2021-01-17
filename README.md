@@ -1,13 +1,11 @@
 # COVID-19 preVIEW: Customized Semantic Search to Explore COVID-19 Research Preprints
 
-## Architecture
+preVIEW is a COVID-19 related search engine which can be accessed under [https://preview.zbmed.de](https://zbmed.preview.de). 
 
-preVIEW is a COVID-19 related search engine which can be accessed under [https://preview.zbmed.de](https://zbmed.preview.de). The basic architecture of our service is summarized below. 
-
-![architecture](img/architecture.png)
+![architecture](img/preview.png)
 
 
-## Sources
+## Data Sources
 
 It currently contains preprints from six different preprint servers, namely bioRxiv, medRxiv, ResearchSquare, arXiv and preprints.org. For all preprint server, we are using specific API calls to retrieve the metadata. Therefore, we developed specific search queries that can be seen in the following. 
 
