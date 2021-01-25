@@ -9,7 +9,14 @@ preVIEW is a COVID-19 related search engine which can be accessed under [https:/
 
 It currently contains preprints from six different preprint servers, namely bioRxiv, medRxiv, ResearchSquare, arXiv and preprints.org. For all preprint server, we are using specific API calls to retrieve the metadata. Therefore, we developed specific search queries that can be seen in the following. 
 
-![searchqueries](img/searchqueries.png) 
+Server | Query/Api
+:----- | :---- 
+ChemRxiv   | covid:keyword: sars-cov-2 OR :keyword: corona OR :keyword: covid-19 OR :keyword: coronavirus
+Researchsquare  | abstract=covid sars ncov coronavirus coronaviruses&postedAfter=2020-01-01
+aRxiv | order: -announced_date_first; size: 200; date_range:from 2020-01-01 ; include_cross_list: True; terms:AND title=COVID 19; OR abstract=COVID 19; OR title=sars cov 2; OR abstract=sars cov 2; OR title=coronavirus; OR abstract=coronavirus
+Preprints.org | search1=covid-19&field1=title_keywords&clause=OR&search2=sars cov-2&field2=title_keywords&matchType=exact&date_from=2020-01-01
+bioRxiv & medRxiv | [https://api.biorxiv.org/covid19/0](https://api.biorxiv.org/covid19/0)
+
 
 
 ## Text Mining
