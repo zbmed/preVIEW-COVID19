@@ -37,17 +37,17 @@ recognition: an evaluation of current automatic annotators and their parameters.
 
 ## Citation 
 
-@incollection{langnickel_covid-19_2021,
-	title = {{COVID}-19 {preVIEW}: Semantic Search to Explore {COVID}-19 Research Preprints},
-	isbn = {978-1-64368-184-9 978-1-64368-185-6},
-	url = {https://ebooks.iospress.nl/doi/10.3233/SHTI210124},
-	shorttitle = {{COVID}-19 {preVIEW}},
-	abstract = {During the current {COVID}-19 pandemic, the rapid availability of profound information is crucial in order to derive information about diagnosis, disease trajectory, treatment or to adapt the rules of conduct in public. The increased importance of preprints for {COVID}-19 research initiated the design of the preprint search engine {preVIEW}. Conceptually, it is a lightweight semantic search engine focusing on easy inclusion of specialized {COVID}-19 textual collections and provides a user friendly web interface for semantic information retrieval. In order to support semantic search functionality, we integrated a text mining workflow for indexing with relevant terminologies. Currently, diseases, human genes and {SARS}-{CoV}-2 proteins are annotated, and more will be added in future. The system integrates collections from several different preprint servers that are used in the biomedical domain to publish non-peer-reviewed work, thereby enabling one central access point for the users. In addition, our service offers facet searching, export functionality and an {API} access. {COVID}-19 {preVIEW} is publicly available at https://preview.zbmed.de.},
-	booktitle = {Studies in Health Technology and Informatics},
-	publisher = {{IOS} Press},
-	author = {Langnickel, Lisa and Baum, Roman and Darms, Johannes and Madan, Sumit and Fluck, Juliane},
-	urldate = {2021-05-31},
-	date = {2021-05-27},
-	doi = {10.3233/SHTI210124},
+@incollection{langnickel_covid-19_2021,  
+    title = {{COVID}-19 {preVIEW}: Semantic Search to Explore {COVID}-19 Research Preprints},  
+	isbn = {978-1-64368-184-9 978-1-64368-185-6},  
+	url = {https://ebooks.iospress.nl/doi/10.3233/SHTI210124},  
+	shorttitle = {{COVID}-19 {preVIEW}},  
+	abstract = {During the current {COVID}-19 pandemic, the rapid availability of profound information is crucial in order to derive information about diagnosis, disease trajectory, treatment or to adapt the rules of conduct in public. The increased importance of preprints for {COVID}-19 research initiated the design of the preprint search engine {preVIEW}. Conceptually, it is a lightweight semantic search engine focusing on easy inclusion of specialized {COVID}-19 textual collections and provides a user friendly web interface for semantic information retrieval. In order to support semantic search functionality, we integrated a text mining workflow for indexing with relevant terminologies. Currently, diseases, human genes and {SARS}-{CoV}-2 proteins are annotated, and more will be added in future. The system integrates collections from several different preprint servers that are used in the biomedical domain to publish non-peer-reviewed work, thereby enabling one central access point for the users. In addition, our service offers facet searching, export functionality and an {API} access. {COVID}-19 {preVIEW} is publicly available at https://preview.zbmed.de.},  
+	booktitle = {Studies in Health Technology and Informatics},  
+	publisher = {{IOS} Press},  
+	author = {Langnickel, Lisa and Baum, Roman and Darms, Johannes and Madan, Sumit and Fluck, Juliane},  
+	urldate = {2021-05-31},  
+	date = {2021-05-27},  
+	doi = {10.3233/SHTI210124},  
 }
 
